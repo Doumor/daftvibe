@@ -1,0 +1,16 @@
+{
+  "expo": {
+   "name": "DaftvibeIPFS",
+   "version": "2.b0",
+   "slug": "DaftvibeIPFS",
+   "icon": "/home/riot/Документы/Daftvibe/DaftvibeIPFS/daftvibe.png",
+   "ios": {
+     "bundleIdentifier": "com.streammusic.daftvibe",
+     "buildNumber": "2.b0"
+   },
+   "android": {
+     "package": "com.streammusic.daftvibe",
+     "versionCode": 8
+   }
+  }
+}

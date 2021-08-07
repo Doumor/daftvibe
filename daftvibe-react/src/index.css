@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #0C0C0D;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/*
+.tabs{
+  border-radius: 0px 0px 0 0;
+  background: #000;
+  color: #fff;
+  display: inline-block;
+  -webkit-tap-highlight-color: transparent;
+  border: 1px solid black;
+  border-bottom: none;
+  bottom: 1px;
+  position: relative;
+  list-style: none;
+  padding: 6px 22.78%;
+  cursor: pointer;
+
+}
+
+.tabs:focus{
+  border-radius: 0px 0px 0 0;
+  background: #000;
+  color: #fff;
+}
+
+:not(.tabs:focus){
+  border-radius: 0px 0px 0 0;
+  background: #000;
+  color: #fff;
+} */
+
+.react-tabs__tab-list {
+  background: #0C0C0D;
+  color: #D0D0D0;
+  border-bottom: 1px solid #aaa;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.react-tabs__tab {
+  display: inline-block;
+  /* border: 1px solid transparent; */
+  border-bottom: none;
+  bottom: 1px;
+  position: relative;
+  list-style: none;
+  padding: 1em 22.78%;
+  cursor: pointer;
+}
+
+.react-tabs__tab--selected {
+  background: #0C0C0D;
+  color: #D0D0D0;
+  /* border-color: #aaa; */
+  border-radius: 0px 0px 0 0;
+}
+
+.react-tabs__tab--disabled {
+  color: GrayText;
+  cursor: default;
+}
+
+.react-tabs__tab:focus {
+  /* box-shadow: 0 0 5px hsl(208, 99%, 50%);
+  border-color: hsl(208, 99%, 50%); */
+  outline: none;
+}
+
+.react-tabs__tab:focus:after {
+  /* content: "";
+  position: absolute;
+  height: 5px;
+  left: -4px;
+  right: -4px;
+  bottom: -5px;
+  background: #fff; */
+}
+
+.react-tabs__tab-panel {
+  display: none;
+}
+
+.react-tabs__tab-panel--selected {
+  display: block;
+  color: #4080FB;
+}
+
+.Button-next {
+  padding: 1em 30%;
+}
+
+.sds {
+  display: inline-block;
+  position: relative;
+}

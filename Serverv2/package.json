@@ -1,0 +1,25 @@
+{
+  "name": "daftvibe",
+  "version": "1.0.0",
+  "description": "Server backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "WTFPL",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "body-parser": "^1.19.0",
+    "cron": "^1.8.2",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "0.0.1-security",
+    "ip": "^1.1.5",
+    "mongodb": "^3.6.1",
+    "mongoose": "^5.10.3",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  }
+}
